@@ -44,7 +44,7 @@ li{
 .bar .front-items .left-entry{
     height: 56px;
     line-height: 56px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .bar .front-items :nth-child(1) .left-entry{
@@ -63,14 +63,14 @@ li{
 }
 
 
-.bar .front-items :nth-child(9) .left-entry{
+.bar .front-items :nth-child(5) .left-entry{
     width: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bar .front-items :nth-child(9) .icon{
+.bar .front-items :nth-child(5) .icon{
     width: 20px;
 }
 
@@ -115,13 +115,13 @@ li{
 .bar .end-items .right-entry{
     display: flex;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
     line-height: 50px;
     justify-content: space-between;
     align-items: center;
 }
 
-.bar .end-items :nth-child(8) .right-entry{
+.bar .end-items :nth-child(7) .right-entry{
     height: 34px;
     background-color: #ffecd2;/*#ffecd2*/
     border-radius: 8px;
