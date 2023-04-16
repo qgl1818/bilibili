@@ -1,0 +1,129 @@
+span{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+.bar{
+    width: 1519.2px;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+
+
+
+.bar .front-items{
+    height: 56px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar li{
+    height: 56px;
+}
+
+.bar .front-items .left-entry, .bar .end-items .right-entry, .bar .search-entry{
+    display: inline-block;
+    text-align: center;
+}
+.bar .front-items .left-entry{
+    height: 56px;
+    line-height: 56px;
+    margin-right: 10px;
+}
+
+.bar .front-items :nth-child(1) .left-entry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar .front-items :nth-child(1) .zzu-logo{
+    height: 100%;
+    margin-right: 30px
+}
+
+.bar .front-items :nth-child(1) .down_icon{
+    width: 10px;
+}
+
+
+.bar .front-items :nth-child(9) .left-entry{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar .front-items :nth-child(9) .icon{
+    width: 20px;
+}
+
+.bar .search-container{
+    height: 38px;
+    padding: 0 10px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+}
+
+.bar .search-content{
+    margin-right: 20px;
+}
+
+
+.bar .search-input{
+    width: 300px;
+    height: 20px;
+    border: transparent;
+    outline: none;
+}
+
+.bar .end-items{
+    height: 50px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bar .end-items li{
+    height: fit-content;
+}
+
+.bar .end-items .right-entry{
+    display: flex;
+    height: 50px;
+    margin-right: 10px;
+    line-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar .end-items :nth-child(8) .right-entry{
+    height: 34px;
+    background-color: #ffecd2;/*#ffecd2*/
+    border-radius: 8px;
+    padding: 0 15px;
+}

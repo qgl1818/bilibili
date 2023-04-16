@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
+    background-repeat: no-repeat;
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 56px);
+}
+
+
+.message-type-select-container{
+    width: 140px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.message-type-select-container .message-logo{
+    height: 62px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.message-type-select-container .message-logo .title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-left: 20px;
+}
+
+
+.message-type-select-container .message-type-select{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 25px;
+}
+
+
+
+.message-type-select-container .message-type{
+    height: 40px;
+    cursor: pointer;
+    list-style:inside
+}
+
+
+.message-type-select-container .type{
+    font-size: 14px;
+    color: #6B757B;
+}
+
+.message
+{
+    display: none;
+    width: 983px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 10px 0;
+}
+#response-to-me-content
+{
+    display: block;
+    width: 983px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 10px 0;
+}
+.message3{
+    display: none !important;
+    width: 983px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 10px 0;
+}
+.message2{
+    width: 983px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 10px 0;
+}
+
+.message-content .title{
+    line-height: 42px;
+    color: #666;
+    font-size: 15px;
+    background-color: white;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.message-content .content{
+    margin-top: 10px;
+    height: 200px;
+    background-color: white;
+    border-radius: 4px;
+}
+
