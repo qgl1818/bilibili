@@ -68,7 +68,6 @@ html {
     justify-content: center;
     width: 100%;
     height: 470px;
-    background-color: pink;
 }
 
 .mainbox .video_item .video {
@@ -254,9 +253,18 @@ html {
     flex-direction: row;
     margin-top: 30px;
     height: 200px; 
+    height: 7.1818vw;
 }
 .video_image {
     width: 35%;
+    height: 7.1818vw;
+    margin-right: 10px;
+}
+.video-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;;
 }
 .video_data {
     color: gray;

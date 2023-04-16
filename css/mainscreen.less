@@ -104,7 +104,7 @@ body
 .content
 {
     background-color: white;
-    width: 80.5455vw;
+    width: 88.5455vw;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
@@ -205,21 +205,25 @@ body
     }
     .revideos
     {
-        height: 22.6061vw;
         width: 100%;
+        height: 27.6364vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         .slider
         {
-            height: 28.5938vw;
+            height: 100% !important;
             width: 43.9063vw;
+        }
+        .sliderbox
+        {
+            height: 90%;
+            width: 100%;
         }
         .revideos-video-list
         {
-            width: 36.8485vw;
-            height: 100%;
+            width: 15.6503vw*3;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -228,23 +232,22 @@ body
             flex-wrap: wrap;
             .videocard
             {
-                width: 11.5758vw;
-                height: 8.4848vw;
+                width: 15.4503vw;
+                height: 13.2364vw;
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 5px;
                 .video-img
                 {
                     width: 100%;
-                    height: 80%;
-                    background-color: pink;
-                    object-fit: cover;
+                    height: 143.4px;
                     object-position: center;
                 }
                 .video-text
                 {
                     width: 100%;
-                    height: 20%;
-                    font-size: 20px;
+                    flex: 1;
+                    font-size: 16px;
                 }
             }
         }
@@ -262,19 +265,21 @@ body
 }
 .videocard
             {
-                width: 11.5758vw;
-                height: 8.4848vw;
+                width: 15.4503vw;
+                height: 13.2364vw;
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 5px;
                 .video-img
                 {
                     width: 100%;
-                    height: 80%;
-                    background-color: pink;
+                    height: 143.4px;
+                    object-position: center;
                 }
                 .video-text
                 {
                     width: 100%;
-                    height: 20%;
+                    flex: 1;
+                    font-size: 16px;
                 }
             }
