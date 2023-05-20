@@ -1,9 +1,6 @@
 span{
     color: black;
-<<<<<<< HEAD
-=======
     font-family: PingFang SC,HarmonyOS_Medium,Helvetica Neue,Microsoft YaHei,sans-serif;
->>>>>>> 15f33ac (competition work)
 }
 a{
     text-decoration: none;
@@ -17,24 +14,15 @@ li{
 }
 
 .bar{
-<<<<<<< HEAD
-    width: 1519.2px;
-    height: 70px;
-=======
     width: 100%;
     height: 70px;
     position: fixed;
     top: 0;
     z-index: 1000000;
->>>>>>> 15f33ac (competition work)
     display: flex;
     background-color: white;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-    padding: 0 24px;
-=======
->>>>>>> 15f33ac (competition work)
 }
 
 
@@ -42,11 +30,7 @@ li{
 
 .bar .front-items{
     height: 56px;
-<<<<<<< HEAD
-    margin-right: 5px;
-=======
     margin-left: 50px;
->>>>>>> 15f33ac (competition work)
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,16 +102,10 @@ li{
 }
 
 .bar .end-items{
-<<<<<<< HEAD
-    height: 50px;
-    display: flex;
-    margin-left: 10px;
-=======
     width: 25%;
     height: 50px;
     display: flex;
     margin-right: 50px;
->>>>>>> 15f33ac (competition work)
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -147,11 +125,7 @@ li{
     align-items: center;
 }
 
-<<<<<<< HEAD
-.bar .end-items :nth-child(7) .right-entry{
-=======
 .bar .end-items :nth-child(5) .right-entry{
->>>>>>> 15f33ac (competition work)
     height: 34px;
     background-color: #ffecd2;/*#ffecd2*/
     border-radius: 8px;

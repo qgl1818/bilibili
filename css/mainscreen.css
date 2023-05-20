@@ -3,10 +3,7 @@ body {
   padding: 0;
 }
 .mainbox {
-<<<<<<< HEAD
-=======
   margin-top: 3.6458vw;
->>>>>>> 15f33ac (competition work)
   width: 100%;
   height: 100%;
   display: flex;
@@ -94,11 +91,7 @@ body {
 }
 .content {
   background-color: white;
-<<<<<<< HEAD
-  width: 88.5455vw;
-=======
   width: 90.5455vw;
->>>>>>> 15f33ac (competition work)
   padding: 10px;
   margin-top: 20px;
   border-radius: 10px;
@@ -202,11 +195,7 @@ body {
   width: 100%;
 }
 .content .revideos .revideos-video-list {
-<<<<<<< HEAD
-  width: 46.9509vw;
-=======
   width: 49.9509vw;
->>>>>>> 15f33ac (competition work)
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -220,27 +209,18 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
-<<<<<<< HEAD
-=======
   overflow: hidden;
->>>>>>> 15f33ac (competition work)
 }
 .content .revideos .revideos-video-list .videocard .video-img {
   width: 100%;
   height: 143.4px;
   object-position: center;
-<<<<<<< HEAD
-=======
   overflow: hidden;
   border-radius: 8px;
->>>>>>> 15f33ac (competition work)
 }
 .content .revideos .revideos-video-list .videocard .video-text {
   width: 100%;
   flex: 1;
-<<<<<<< HEAD
-  font-size: 16px;
-=======
   max-height: 40px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -256,7 +236,6 @@ body {
 }
 .content .revideos .revideos-video-list .videocard .video-text:hover {
   color: #00AEEC;
->>>>>>> 15f33ac (competition work)
 }
 .content .video-list {
   width: 100%;
@@ -266,10 +245,7 @@ body {
   flex-wrap: wrap;
 }
 .videocard {
-<<<<<<< HEAD
-=======
   cursor: pointer;
->>>>>>> 15f33ac (competition work)
   width: 15.4503vw;
   height: 13.2364vw;
   display: flex;
@@ -280,18 +256,12 @@ body {
   width: 100%;
   height: 143.4px;
   object-position: center;
-<<<<<<< HEAD
-=======
   overflow: hidden;
   border-radius: 8px;
->>>>>>> 15f33ac (competition work)
 }
 .videocard .video-text {
   width: 100%;
   flex: 1;
-<<<<<<< HEAD
-  font-size: 16px;
-=======
   max-height: 40px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -387,5 +357,4 @@ body {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0, 0, 0, 0.4);
->>>>>>> 15f33ac (competition work)
 }
