@@ -4,7 +4,10 @@ document.getElementById("response-to-me").onclick=function(){
     document.getElementById("response-to-me-content").setAttribute('class','message2')
     console.log(last_id)
     last_id = "response-to-me-content";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 15f33ac (competition work)
 };
 
 document.getElementById("at-me").onclick=function(){

@@ -11,6 +11,10 @@ body{
 }
 
 .main{
+<<<<<<< HEAD
+=======
+    margin-top: 70px !important;
+>>>>>>> 15f33ac (competition work)
     display: flex;
     justify-content: center;
     height: calc(100vh - 56px);
